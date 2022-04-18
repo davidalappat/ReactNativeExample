@@ -8,10 +8,10 @@ const Greeting = () => {
       <TextInput
         style={styles.input}
         value={name}
-        place="Write your name.."
+        place="Enter your name.."
         onChangeText={(name) => setName(name)}
       />
-      <Text>Welcome to this CI/CD course, {name}!</Text>
+      <Text>Welcome to this CI/CD for React Native course, {name}!</Text>
     </View>
   );
 };
